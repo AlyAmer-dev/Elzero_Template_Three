@@ -1,0 +1,245 @@
+
+/* Mobiles */
+
+@media (max-width: 769px) {
+    
+    /** The Framework */
+    
+    .dots-1, 
+    .dots-2 {
+        width: 100px;
+    }
+    .our-skills .box .image, 
+    .events .box .image {
+        display: none;
+    }
+     .box .con {
+        width: 100%;
+    }
+
+    /*todo The Header  */
+
+    header .container {
+        flex-direction: column;
+        padding: 1em;
+        gap: 0.5em;
+    }
+    header li .mega-menua .image {
+        display: none;
+    }
+    header li .mega-menua .links {
+        width: 100%;
+        flex-direction: column;
+        gap: 0;
+    }
+    header li .mega-menua .links .col {
+        width: 100%;
+    }
+    header li:last-of-type:hover .mega-menua {
+        width: 100%;
+        padding: 0;
+        transform: translate(-50% , 7%);
+        -webkit-transform: translate(-50% , 7%);
+        -moz-transform: translate(-50% , 7%);
+        -ms-transform: translate(-50% , 7%);
+        -o-transform: translate(-50% , 7%);
+    }
+    li .mega-menua .col li {
+        border-top: 1px #00000026 solid !important;
+        border-bottom: none !important;
+    }
+    
+    /*~ The landing  */
+
+    .landing .container .image {
+        display: none;
+    }
+    .landing .container .text {
+        width: 100%;
+        text-align: center;
+    }
+
+    /*~ Team Members */
+
+    .team-members .card > .con .image {
+        transform: translateX(-20px);
+        -webkit-transform: translateX(-20px);
+        -moz-transform: translateX(-20px);
+        -ms-transform: translateX(-20px);
+        -o-transform: translateX(-20px);
+    }
+
+    /*~ How it Works */
+    
+    .how-it-works .box {
+        display: flex;
+        flex-direction: column;
+    }
+    .how-it-works .box .image {
+        display: block;
+    }
+
+    /* ~ The Events */
+
+    .events .box .con .content {
+        width: 100%;
+    }
+    .events .box .sender {
+        border-radius: 0;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap: 0.6em;
+    }
+    .events .box .sender input {
+        border-radius: 0;
+        padding: 10px;
+        width: inherit;
+        font-size: 1em;
+    }
+    .events .box .sender a {
+        border-radius: 0;
+        margin: 0;
+        width: inherit;
+        text-align: center;
+        padding: 16px 0;
+        font-size: 1em;
+    }
+
+    /*~ The Plans */
+    
+    .plans .cards .card.pop {
+
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+
+    /*~ The Top Videos */
+
+    .top-vids .box {
+        flex-direction: column;
+    }
+
+    /*~ The Stats */
+
+    .stats .container .cards .card {
+        font-size: var(--step-0);
+    }
+
+    /*todo The Footer  */
+
+    footer > .container {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+        gap: 3em;
+        text-align: center;
+    }
+    footer > .container .c2 li {
+        padding: 0.6em 0 0.5em 0 !important;
+    }
+    footer > .container .c1 .icons,
+    footer > .container .c2 a {
+        justify-content: center;
+    }
+    footer > .container .c3 {
+        gap: 2em;
+    }
+    footer .c3 li {
+        flex-direction: column;
+    }
+}
+
+/* Very Small Mobiles */
+
+@media (max-width: 303px) {
+    
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    /*~ Testimonials */
+
+    .testimonials .card .image {
+
+        width: 50px;
+        padding: 5px;
+        top: -16px;
+    }
+
+    /*~ The Events */
+
+    .events .box .con .content .caunters {
+        flex-direction: column;
+    }
+    .events .box .con .content .caunters .caunt {
+        width: 100px;
+        margin-inline: auto;
+    }
+
+    /* todo The Footer  */
+
+    footer {
+        font-size: var(--step--2);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*! Another Small Medias */
+
+@media (max-width: 900px) {
+
+    .request-discount {
+        flex-direction: column;
+    }
+    .request-discount .container_2 {
+        width: 100%;
+        padding-inline: 1rem !important;
+    }
+    .request-discount .container_2:last-of-type {
+        width: 100%;
+        padding-inline: 3rem;
+        margin-top: 4em;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .our-skills .box .bar::after {
+        top: -113%;
+    }
+}
+
+@media (max-width: 360px) {
+
+    header {
+        font-size: 10px;
+    }
+    header li:last-of-type:hover .mega-menua {
+        font-size: var(--step--1);
+        transform: translate(-50% , 5%);    
+    }
+}
